@@ -74,4 +74,4 @@ group :test do
   gem "webdrivers"
 end
 
-# Adding some random stuff to ensure that my code run
+# Adding some random stuff to ensure that my code run. Some more changes
