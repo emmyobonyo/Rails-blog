@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'about', to: 'pages#about'
   # rails --routes expanded : to see all the routes
-  resources :articles, only: [:show, :index, :new, :create]
+  resources :articles
 end
